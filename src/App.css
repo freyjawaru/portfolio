@@ -7,3 +7,7 @@
 .app {
   background-color: #990100;
 }
+
+.button {
+  padding-top: 0;
+}

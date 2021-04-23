@@ -2,16 +2,19 @@
 
 nav {
     flex: 1;
-    position: fixed;
+    /* position: fixed; */
+    /* justify-content: space-between; */
     width: 100%;
     background-color: white;
     z-index: 1;
     top: 0;
     left: 0;
+    padding: 20px;
 }
 
 .nav {
     display: flex;
+    justify-items: flex-end;
     padding: 20px 0;
     margin-left: -2px;
     margin-right: -2px;
@@ -22,7 +25,7 @@ nav {
     color: #990100;
 }
 
-.logo {
+/* .logo {
   font-family: 'Montserrat', sans-serif;
     text-align: center;
     
@@ -35,14 +38,15 @@ nav {
 
 .logo:hover {
     transform: scale(1.004);
-}
+} */
 
 .links {
-    flex: 2;
-    max-width: 30vw;
-    align-items: center;
-    font-size: 24px;
+    /* flex: 2; */
     display: flex;
+    /* max-width: 30vw; */
+    align-items: space-around;
+    font-size: 24px;
+    
 }
 
 .link {
