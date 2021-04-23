@@ -1,7 +1,8 @@
 //code from https://pspdfkit.com/blog/2018/open-pdf-in-react/#getting-started
 
 import React, { Component } from "react";
-import { Document, Page } from "react-pdf";
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export default class App extends Component {
   state = { numPages: null, pageNumber: 1 };
@@ -27,7 +28,7 @@ export default class App extends Component {
 
         <div style={{ width: 600 }}>
           <Document
-            file="/example.pdf"
+            file="../KC.Chandler.resume.pdf"
             onLoadSuccess={this.onDocumentLoadSuccess}
           >
             <Page pageNumber={pageNumber} width={600} />

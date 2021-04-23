@@ -44,7 +44,7 @@ nav {
     /* flex: 2; */
     display: flex;
     /* max-width: 30vw; */
-    align-items: space-around;
+    align-items: center;
     font-size: 24px;
     
 }
