@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  flex: 1;
+}
+.article {
+  order: 2;
+  flex: 3;
+}
+.article{
+  background-color:#ECE2D0;
+color: #3F0208;
+}
+.aside {
+  flex: 0 100px;
+}
+.left {
+  order: 1;
+}
+.left {
+
+  background-image: url('https://i.imgur.com/k8VEEjF.jpg');
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  padding: 80px;
+  box-sizing: border-box;
+  padding-right: 100px;
+}
+.right {
+  order: 3;
+}
+.right {
+  background-image: url('https://i.imgur.com/YWVZhap.jpg');
+  background-size: 300px;
+  background-position: center;
+  padding: 80px;
+  box-sizing: border-box;
+}
+
+.me {
+  text-align: justify;
+  background-color:#ECE2D0;
+color: #3F0208;
+padding: 100px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.mainH1 {
+  background-color:#ECE2D0;
+  color: #3F0208;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
