@@ -5,7 +5,7 @@ nav {
     /* position: fixed; */
     /* justify-content: space-between; */
     width: 100%;
-    background-color: white;
+    background-color:#ECE2D0;
     z-index: 1;
     top: 0;
     left: 0;
@@ -23,6 +23,18 @@ nav {
     width: 100%;
     background-color: #cea07f;
     color: #990100;
+}
+
+.rails {
+  max-width: 40px;
+}
+
+.mongo {
+  max-width: 30px;
+}
+
+.sql {
+  max-width: 30px;
 }
 
 /* .logo {
