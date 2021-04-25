@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# K. C. Chandler Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a portfolio for K. C. Chandler, at first only front-end.
 
 ## Available Scripts
 
