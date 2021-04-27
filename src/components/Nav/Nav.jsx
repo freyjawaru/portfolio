@@ -2,6 +2,7 @@ import React from "react";
 import "./Nav.css";
 import { NavLink } from "react-router-dom";
 import { FaGithub, FaReact, FaHtml5, FaCss3, FaJs } from "react-icons/fa";
+import cv from "../../KC.Chandler.resume.pdf";
 
 const Nav = () => {
   return (
@@ -14,9 +15,7 @@ const Nav = () => {
           <NavLink className="link" to="/list">
           Projects
           </NavLink>
-          <NavLink className="link" to="/CV">
-          CV
-          </NavLink>
+          <a href={cv} target="_blank" rel="noopener noreferrer">CV</a>
           <NavLink className="link" to="/Contact_me">
           Contact me
           </NavLink>
