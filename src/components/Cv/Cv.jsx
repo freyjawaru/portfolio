@@ -28,7 +28,7 @@ export default class App extends Component {
 
         <div style={{ width: 600 }}>
           <Document
-            file="../KC.Chandler.resume.pdf"
+            file="../../KC.Chandler.resume.pdf"
             onLoadSuccess={this.onDocumentLoadSuccess}
           >
             <Page pageNumber={pageNumber} width={600} />

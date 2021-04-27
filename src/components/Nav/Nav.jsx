@@ -17,7 +17,7 @@ const Nav = () => {
           <NavLink className="link" to="/CV">
           CV
           </NavLink>
-          <NavLink className="link" to="/Contact me">
+          <NavLink className="link" to="/Contact_me">
           Contact me
           </NavLink>
         <FaGithub /> <FaReact /> <FaHtml5 /> <FaCss3 /> <FaJs /> <img className="rails" src="https://i.imgur.com/PIb5QHb.png"></img>

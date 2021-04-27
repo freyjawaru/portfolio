@@ -21,7 +21,7 @@ const App = () => {
         <Route exact path="/" component={Main} />
         <Route path="/list" component={List} />
         <Route path="/cv" component={Cv} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/Contact_me" component={Contact} />
       </Switch>
       <Footer displaytext="FooterData"/>
     
