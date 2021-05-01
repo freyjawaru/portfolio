@@ -15,15 +15,15 @@ const Nav = () => {
           <NavLink className="link" to="/list">
           Projects
           </NavLink>
-          <a href={cv} target="_blank" rel="noopener noreferrer">CV</a>
+          <a className="CV" href={cv} target="_blank" rel="noopener noreferrer">CV</a>
           <NavLink className="link" to="/Contact_me">
           Contact me
           </NavLink>
-        <FaGithub /> <FaReact /> <FaHtml5 /> <FaCss3 /> <FaJs /> <img className="rails" src="https://i.imgur.com/PIb5QHb.png"></img>
-        <img className="mongo" src="https://i.imgur.com/YgN7lXs.png"></img><img className="sql" src="https://i.imgur.com/DVSKzQD.png"></img>
-        <img className="rails" src="https://i.imgur.com/p7Oe9PW.png"></img>
-        <img className="rails" src="https://i.imgur.com/0POfHYs.png"></img>
-        <img className="rails" src="https://i.imgur.com/5RXeemB.jpg"></img>
+        <FaGithub /> <FaReact /> <FaHtml5 /> <FaCss3 /> <FaJs /> <img className="rails" src="https://i.imgur.com/PIb5QHb.png" alt="rails"></img>
+        <img className="mongo" src="https://i.imgur.com/YgN7lXs.png" alts="mongo"></img><img className="sql" src="https://i.imgur.com/DVSKzQD.png"></img>
+        <img className="rails" src="https://i.imgur.com/p7Oe9PW.png" alt="logo"></img>
+        <img className="rails" src="https://i.imgur.com/0POfHYs.png"alt="logo"></img>
+        <img className="rails" src="https://i.imgur.com/5RXeemB.jpg"alt="logo"></img>
          </div>
        
     </nav>

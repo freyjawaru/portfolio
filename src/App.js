@@ -21,10 +21,13 @@ const App = () => {
         <Route exact path="/" component={Main} />
         <Route path="/list" component={List} />
        <a href={cv} target="_blank" rel="noopener noreferrer">CV</a>
-        <Route path="/Contact_me" component={Contact} />
+       {/* <Route path="/Contact_me" component={Contact} /> */}
       </Switch>
+      <Route>
+        <Contact path = "/contact/" />
+    </Route>
       <Footer displaytext="FooterData"/>
-    
+     
    
     </div>
 

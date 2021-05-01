@@ -1,11 +1,11 @@
-h3 {
+.contact_KC {
 
   font-family: 'Montserrat', sans-serif;
-  background-color: #990100;
+  background-color: blue;
   color: #ECE2D0;
 }
 
-h3 a {
+a contact{
 
   font-family: 'Montserrat', sans-serif;
   background-color: #990100;
