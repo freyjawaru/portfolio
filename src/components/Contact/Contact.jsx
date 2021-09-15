@@ -1,12 +1,19 @@
+import React from 'react';
+// import { Link } from 'react-router';
 import './Contact.css';
 
-function Contact() {
-  
-  return (
-    <div className="contact_KC"><h3>TEST</h3>
-    <a className="contact"target="_blank" href="https://www.linkedin.com/in/katharine-chandler/">LinkedIn</a>
-    </div>
-  )
+class Contact extends React.Component {
+    render() {
+        return (
+            <div>
+                <p className="p_contact">Contact K. C.!</p>
+                <ul>
+                <li><a className="a_contact" target="_blank" href="https://www.linkedin.com/in/katharine-chandler/">Linked In</a></li>
+            <br /> <br />
+                </ul>
+            </div>
+        );
+    }
 }
 
 export default Contact;

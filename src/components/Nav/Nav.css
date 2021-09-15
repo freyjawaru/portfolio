@@ -32,6 +32,14 @@ a.CV {
   align-items: space-around;
 }
 
+.logo_pics {
+  display: flex;
+  align-content: space-between;
+  background-color: blue;
+}
+
+
+
 .links {
 
   display: flex;
@@ -39,16 +47,22 @@ a.CV {
 }
 
 .rails {
-  max-width: 40px;
+  max-width: 60px;
+}
+
+.logo_pics {
+  max-width: 60px;
 }
 
 .mongo {
-  max-width: 30px;
+  max-width: 60px;
 }
 
 .sql {
-  max-width: 30px;
+  max-width: 60px;
 }
+
+
 
 /* .logo {
   font-family: 'Montserrat', sans-serif;
