@@ -29,6 +29,26 @@ const Nav = () => {
           src="https://i.imgur.com/PIb5QHb.png"
           alt="rails"
         ></img>
+         <img
+          className="rails"
+          src="https://i.imgur.com/lzSwntS.png"
+          alt="rails"
+        ></img>
+          <img
+          className="rails"
+          src="https://i.imgur.com/LaOOO9m.png"
+          alt="rails"
+        ></img>
+          <img
+          className="rails"
+          src="https://i.imgur.com/CRYyCdi.png"
+          alt="rails"
+        ></img>
+          <img
+          className="rails"
+          src="https://i.imgur.com/iSP6rV9.png"
+          alt="rails"
+        ></img>
         <img
           className="mongo"
           src="https://i.imgur.com/YgN7lXs.png"
