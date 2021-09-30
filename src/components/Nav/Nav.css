@@ -35,32 +35,31 @@ a.CV {
 .logo_pics {
   display: flex;
   align-content: space-between;
-  background-color: blue;
+  background-color: white;
 }
 
 
 
-.links {
+.container {
 
-  display: flex;
-  align-items: space-around;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 60px 60px 60px;
+  justify-content: left;
+
+  
 }
 
 .rails {
-  max-width: 60px;
+  max-width: 70px;
+  max-height: 60px;
 }
 
 .logo_pics {
   max-width: 60px;
 }
 
-.mongo {
-  max-width: 60px;
-}
 
-.sql {
-  max-width: 60px;
-}
 
 
 

@@ -15,7 +15,7 @@ const Nav = () => {
         <NavLink className="link" to="/list">
           Projects
         </NavLink>
-        <a className="CV" href={cv} target="_blank" rel="cv">
+        <a className="link" href={cv} target="_blank" rel="cv">
           CV
         </a>
         <NavLink className="link" to="/Contact_me">
@@ -50,11 +50,11 @@ const Nav = () => {
           alt="rails"
         ></img>
         <img
-          className="mongo"
+          className="rails"
           src="https://i.imgur.com/YgN7lXs.png"
           alts="mongo"
         ></img>
-        <img className="sql" src="https://i.imgur.com/DVSKzQD.png"></img>
+        <img className="rails" src="https://i.imgur.com/DVSKzQD.png"></img>
         <img
           className="rails"
           src="https://i.imgur.com/p7Oe9PW.png"
